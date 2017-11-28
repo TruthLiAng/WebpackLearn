@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebpackApp", "WebApplication4\WebpackApp.csproj", "{825DD96D-26E6-4407-B200-19648026F7CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Webpack.App", "WebApplication4\Webpack.App.csproj", "{825DD96D-26E6-4407-B200-19648026F7CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webpack.EntityFramework", "Webpack.EntityFramework\Webpack.EntityFramework.csproj", "{85F9A5C7-945F-4204-92FD-5E0E18A1D9B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webpack.Services", "Webpack.Service\Webpack.Services.csproj", "{EE3416A0-2889-42C3-8886-AAB5D0B617E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{825DD96D-26E6-4407-B200-19648026F7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{825DD96D-26E6-4407-B200-19648026F7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{825DD96D-26E6-4407-B200-19648026F7CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85F9A5C7-945F-4204-92FD-5E0E18A1D9B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85F9A5C7-945F-4204-92FD-5E0E18A1D9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85F9A5C7-945F-4204-92FD-5E0E18A1D9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85F9A5C7-945F-4204-92FD-5E0E18A1D9B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE3416A0-2889-42C3-8886-AAB5D0B617E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE3416A0-2889-42C3-8886-AAB5D0B617E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE3416A0-2889-42C3-8886-AAB5D0B617E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE3416A0-2889-42C3-8886-AAB5D0B617E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
