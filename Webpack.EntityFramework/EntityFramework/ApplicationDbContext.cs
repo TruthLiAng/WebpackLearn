@@ -1,13 +1,14 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using Webpack.EntityFramework.Models;
+using Webpack.Domain.Models;
 
 namespace Webpack.EntityFramework.EntityFramework
 {
     public class ApplicationDbContext: DbContext
     {
+        public ApplicationDbContext()
+        {
+        }
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
     : base(options)
         {

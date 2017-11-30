@@ -5,11 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Webpack.EntityFramework\Webpack.EntityFramework.csproj" />
+    <Folder Include="DtoModel\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Service\Task\Dtos\" />
+    <ProjectReference Include="..\Webpack.EntityFramework\Webpack.EntityFramework.csproj" />
   </ItemGroup>
 
 </Project>
